@@ -10,6 +10,15 @@
     background-color:rgba(255, 235, 205, 0.454);
   }
 
+
+
+  h3 {
+  position: absolute;
+  bottom: 130px;
+  left: 50px;
+    color: orangered;
+  }
+
   img {
     height: 20vh;
     background-color:rgb(249, 230, 195);
@@ -21,6 +30,8 @@
   }
    
   .image-container {
+    display: flex; 
+    justify-content: center;
     width: 100%;
     max-width: 980px;
     margin: 16px auto;
